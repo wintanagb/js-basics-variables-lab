@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 2,
+    "pending": 0,
+    "failures": 4,
+    "start": "2020-11-13T21:26:44.234Z",
+    "end": "2020-11-13T21:26:44.604Z",
+    "duration": 370
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyName is not defined\n    at Context.<anonymous> (test/indexTest.js:15:14)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "companyName is not defined"
+      }
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\n' to match /const companyName/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\n",
+        "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\n' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:19:21)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:25:14)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "mostProfitableNeighborhood is not defined"
+      }
+    },
+    {
+      "title": "does not raise error if the mostProfitableNeighborhood is changed",
+      "fullTitle": "index.js mostProfitableNeighborhood does not raise error if the mostProfitableNeighborhood is changed",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:35:14)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "companyCeo is not defined"
+      }
+    },
+    {
+      "title": "does not raise error if the companyCeo is changed",
+      "fullTitle": "index.js companyCeo does not raise error if the companyCeo is changed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyName is not defined\n    at Context.<anonymous> (test/indexTest.js:15:14)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "companyName is not defined"
+      }
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\n' to match /const companyName/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\n",
+        "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\n' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:19:21)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:25:14)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "mostProfitableNeighborhood is not defined"
+      }
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:35:14)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "companyCeo is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "does not raise error if the mostProfitableNeighborhood is changed",
+      "fullTitle": "index.js mostProfitableNeighborhood does not raise error if the mostProfitableNeighborhood is changed",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not raise error if the companyCeo is changed",
+      "fullTitle": "index.js companyCeo does not raise error if the companyCeo is changed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
